@@ -1,0 +1,12 @@
+Source: ros-kinetic-rh-p12-rn
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://wiki.ros.org/rh_p12_rn
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rh-p12-rn
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-rh-p12-rn-base-module, ros-kinetic-rh-p12-rn-base-module-msgs, ros-kinetic-rh-p12-rn-description, ros-kinetic-rh-p12-rn-gazebo, ros-kinetic-rh-p12-rn-gui, ros-kinetic-rh-p12-rn-manager
+Description: ROS messages packages for the ROBOTIS RH-P12-RN (meta package)
