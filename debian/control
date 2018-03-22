@@ -1,0 +1,12 @@
+Source: ros-kinetic-rh-p12-rn-description
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-roscpp, ros-kinetic-sensor-msgs
+Homepage: http://wiki.ros.org/rh_p12_rn_description
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rh-p12-rn-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-joint-state-publisher, ros-kinetic-robot-state-publisher, ros-kinetic-roscpp, ros-kinetic-sensor-msgs
+Description: 3D models of the RH-P12-RN for simulation and visualization
