@@ -1,0 +1,12 @@
+Source: ros-kinetic-rh-p12-rn-manager
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-dynamixel-sdk, ros-kinetic-rh-p12-rn-base-module, ros-kinetic-robotis-controller, ros-kinetic-robotis-controller-msgs, ros-kinetic-robotis-device, ros-kinetic-robotis-framework-common, ros-kinetic-roscpp
+Homepage: http://wiki.ros.org/rh_p12_rn_manager
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rh-p12-rn-manager
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-cmake-modules, ros-kinetic-dynamixel-sdk, ros-kinetic-rh-p12-rn-base-module, ros-kinetic-robotis-controller, ros-kinetic-robotis-controller-msgs, ros-kinetic-robotis-device, ros-kinetic-robotis-framework-common, ros-kinetic-roscpp
+Description: Manager package using ROBOTIS framework to control the RH-P12-RN
