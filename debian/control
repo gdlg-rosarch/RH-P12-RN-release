@@ -1,0 +1,12 @@
+Source: ros-kinetic-rh-p12-rn-gui
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), libqt4-dev, ros-kinetic-catkin, ros-kinetic-qt-build, ros-kinetic-rh-p12-rn-base-module-msgs, ros-kinetic-robotis-controller-msgs, ros-kinetic-roscpp
+Homepage: http://wiki.ros.org/rh_p12_rn_gui
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rh-p12-rn-gui
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt4-dev, ros-kinetic-qt-build, ros-kinetic-rh-p12-rn-base-module-msgs, ros-kinetic-robotis-controller-msgs, ros-kinetic-roscpp
+Description: This package provides GUI interface to control the RH-P12-RN
